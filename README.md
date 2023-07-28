@@ -1,27 +1,14 @@
-# React + TypeScript + Vite
+# Hangman
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A game in which you have to guess the letters of an unknown word. You have 6 tries to guess the word before the man is hanged 😵
 
-Currently, two official plugins are available:
+## Problems
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Following are the problems in this Hangman game:
 
-## Expanding the ESLint configuration
+- Not accessible for mobile players
+- Less Data
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+## Contribution
 
-- Configure the top-level `parserOptions` property like this:
-
-```js
-   parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-   },
-```
-
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+Feel free to contribute to this amazing project 😎
